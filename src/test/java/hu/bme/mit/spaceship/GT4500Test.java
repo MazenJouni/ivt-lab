@@ -16,7 +16,7 @@ public class GT4500Test {
   public void init(){
     FirstMock = mock(TorpedoStore.class);
     SecondMock = mock(TorpedoStore.class);
-    ship = new GT4500(mockFirst, mockSecond);
+    ship = new GT4500(FirstMock, SecondMock);
   }
 
   @Test
