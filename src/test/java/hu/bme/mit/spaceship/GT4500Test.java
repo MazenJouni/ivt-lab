@@ -10,7 +10,7 @@ public class GT4500Test {
 
   private GT4500 ship;
   private TorpedoStore mock_1;
-  private TorpedoStore mock_1;
+  private TorpedoStore mock_2;
     
   @BeforeEach
   public void init(){
